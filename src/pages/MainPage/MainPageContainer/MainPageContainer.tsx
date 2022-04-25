@@ -15,7 +15,7 @@ export const MainPageContainer = () => {
     }, [])
 
     if (isLoading) {
-        return <Loader />
+        return <Loader/>
     }
 
     return (

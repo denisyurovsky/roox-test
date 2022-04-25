@@ -15,8 +15,8 @@ export const UserPageContainer = () => {
     }, [])
 
     if (isLoading) {
-        return <Loader />
+        return <Loader/>
     }
 
-    return <UserPageView user = {userData}/>
+    return <UserPageView user={userData}/>
 }

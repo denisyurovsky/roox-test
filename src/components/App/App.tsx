@@ -6,12 +6,12 @@ import {MainPageContainer} from "../../pages/MainPage/MainPageContainer/MainPage
 
 function App() {
 
-  return (
-      <Routes>
-          <Route path='/' element={<MainPageContainer />}/>
-          <Route path='/users/:id' element={<UserPageContainer />}/>
-      </Routes>
-  );
+    return (
+        <Routes>
+            <Route path='/' element={<MainPageContainer/>}/>
+            <Route path='/users/:id' element={<UserPageContainer/>}/>
+        </Routes>
+    );
 }
 
 export default App;
