@@ -68,7 +68,7 @@ export const UserPageView = (props: any) => {
                         <span>Comment</span>
                         <textarea disabled={isDisabled} onChange={(e) => setTextarea(e.target.value)}/>
                     </div>
-                    <button onClick={showData} className='user-page-view__button'>Отправить</button>
+                    <button disabled={isDisabled} onClick={showData} className='user-page-view__button'>Отправить</button>
                 </div>
             </div>
         </div>
