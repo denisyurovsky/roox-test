@@ -1,0 +1,18 @@
+.app-container {
+  display: flex;
+
+  .users-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 19px 34px;
+    gap: 14px;
+  }
+  .users-container__header {
+    font-weight: 700;
+  }
+
+  .users-container__footer {
+    align-self: flex-end;
+  }
+}

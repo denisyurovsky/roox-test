@@ -1,0 +1,16 @@
+.user-page-view__input {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 216px;
+}
+
+.user-page-view__input > input {
+  border: 1px solid #D8D8D8;
+  border-radius: 5px;
+  height: 22px;
+}
+
+.user-page-view__input > input:invalid {
+  border: 2px solid red;
+}

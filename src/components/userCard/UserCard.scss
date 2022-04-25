@@ -1,0 +1,24 @@
+.user-card-container {
+  position: relative;
+  background: #F3F3F3;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 10px;
+}
+
+.user-card-container__row {
+  color: #A3A3A3;
+}
+
+
+.user-card-container__more-button {
+  position: absolute;
+  background: none;
+  cursor: pointer;
+  border: none;
+  color: #4B51EF;
+  bottom: 10px;
+  right: 10px;
+}
