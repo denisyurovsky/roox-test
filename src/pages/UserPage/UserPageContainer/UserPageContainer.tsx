@@ -11,11 +11,13 @@ export const UserPageContainer = () => {
     const [isLoading, setIsLoading] = useState(true)
 
     useEffect(() => {
-        axios.get(`https://jsonplaceholder.typicode.com/users?id=${id}`).then(data => setUserData(data.data[0])).then(() => setIsLoading(false))
+        axios.get(`https://jsonplaceholder.typicode.com/users?id=${id}`)
+            .then(data => setUserData(data.data[0]))
+            .then(() => setIsLoading(false))
     }, [])
 
     if (isLoading) {
-        return <Loader/>
+        return <Loader />
     }
 
     return <UserPageView user={userData}/>

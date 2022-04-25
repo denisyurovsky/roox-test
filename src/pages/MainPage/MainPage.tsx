@@ -5,7 +5,7 @@ import {SideNav} from "../../components/sideNav/SideNav";
 import {User} from "../../interfaces/UserInterface";
 import {Title} from "../../components/Title/Title";
 
-export const MainPage = (props: any) => {
+export const MainPage = (props: {data: Array<User>}) => {
 
     const [users, setUsers] = useState(props.data)
 

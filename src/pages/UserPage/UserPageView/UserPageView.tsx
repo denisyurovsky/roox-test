@@ -34,7 +34,7 @@ export const UserPageView = (props: any) => {
             inputWebsite,
             textarea
         }
-        console.log(JSON.stringify(data))
+        console.log(JSON.stringify(data, undefined, 4));
     }
 
     return (
@@ -68,7 +68,9 @@ export const UserPageView = (props: any) => {
                         <span>Comment</span>
                         <textarea disabled={isDisabled} onChange={(e) => setTextarea(e.target.value)}/>
                     </div>
-                    <button disabled={isDisabled} onClick={showData} className='user-page-view__button'>Отправить
+                    <button disabled={!inputName || !inputUserName
+                        || !inputEmail || !inputStreet || !inputWebsite
+                        || !inputPhone || !inputZipcode || !inputCity || isDisabled} onClick={showData} className='user-page-view__button'>Отправить
                     </button>
                 </div>
             </div>

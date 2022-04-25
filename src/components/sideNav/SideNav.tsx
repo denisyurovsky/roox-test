@@ -2,7 +2,7 @@ import React from "react";
 import './SideNav.scss'
 import {CustomButton} from "../CustomButton/CustomButton";
 
-export const SideNav = (props: any) => {
+export const SideNav = (props: {sortByCity?: Function, sortByCompany?: Function}) => {
     return (
         <div className='sort-container'>
             <span>Сортировка</span>

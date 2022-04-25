@@ -1,7 +1,8 @@
 import './UserCard.scss'
 import {useNavigate} from "react-router";
+import {User} from "../../interfaces/UserInterface";
 
-export const UserCard = (props: any) => {
+export const UserCard = (props: {user: User}) => {
 
     const navigate = useNavigate()
 

@@ -48,3 +48,7 @@
   border: none;
   cursor: pointer;
 }
+
+.user-page-view__button:disabled {
+  background: gray;
+}
