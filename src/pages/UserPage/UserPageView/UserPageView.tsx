@@ -1,9 +1,9 @@
 import './UserPageView.scss'
 import React, {useState} from "react";
-import {SideNav} from "../../../sideNav/SideNav";
-import {CustomInput} from "../../../CustomInput/CustomInput";
-import {CustomButton} from "../../../CustomButton/CustomButton";
-import {Title} from "../../../Title/Title";
+import {SideNav} from "../../../components/sideNav/SideNav";
+import {CustomInput} from "../../../components/CustomInput/CustomInput";
+import {CustomButton} from "../../../components/CustomButton/CustomButton";
+import {Title} from "../../../components/Title/Title";
 
 export const UserPageView = (props: any) => {
 

@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import axios from "axios";
-import {Loader} from "../../../Loader/Loader";
+import {Loader} from "../../../components/Loader/Loader";
 import {MainPage} from "../MainPage";
 
 export const MainPageContainer = () => {

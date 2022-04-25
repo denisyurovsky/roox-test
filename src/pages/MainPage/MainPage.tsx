@@ -1,9 +1,9 @@
-import {UserCard} from "../../userCard/UserCard";
+import {UserCard} from "../../components/userCard/UserCard";
 import React, { useState} from "react";
 import './MainPage.scss'
-import {SideNav} from "../../sideNav/SideNav";
-import {User} from "../../../interfaces/UserInterface";
-import {Title} from "../../Title/Title";
+import {SideNav} from "../../components/sideNav/SideNav";
+import {User} from "../../interfaces/UserInterface";
+import {Title} from "../../components/Title/Title";
 
 export const MainPage = (props: any) => {
 

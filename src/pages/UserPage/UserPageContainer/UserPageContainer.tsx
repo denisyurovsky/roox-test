@@ -2,7 +2,7 @@ import {useParams} from "react-router";
 import React, {useEffect, useState} from "react";
 import {UserPageView} from "../UserPageView/UserPageView";
 import axios from "axios";
-import {Loader} from "../../../Loader/Loader";
+import {Loader} from "../../../components/Loader/Loader";
 
 export const UserPageContainer = () => {
     const {id} = useParams()

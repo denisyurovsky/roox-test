@@ -1,7 +1,7 @@
 import React from 'react';
 import {Route, Routes} from "react-router";
-import {UserPageContainer} from "../pages/UserPage/UserPageContainer/UserPageContainer";
-import {MainPageContainer} from "../pages/MainPage/MainPageContainer/MainPageContainer"
+import {UserPageContainer} from "../../pages/UserPage/UserPageContainer/UserPageContainer";
+import {MainPageContainer} from "../../pages/MainPage/MainPageContainer/MainPageContainer"
 
 
 function App() {
